@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Conventer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tofoot" id="tofoot">
+        <h2 style="margin:20px; padding: 10px;">HEIGHT CONVERTER</h2>
+        <span>
+            <button  onclick="tofot()" id="but1">To Feet & Inch</button>
+            <button   onclick="tocen()" id="but2">To Centimeter</button>
+        </span>
+         <input type="text" style="color: aliceblue; text-align: center;" id="cm" value="">
+         <span>
+             <p id="foot">Foot</p><p id="inche">Inches</p>
+            </span>
+            
+           <h4>Result in Feet and Inches</h4>
+            <button style="width:70%;height: 40px; margin:15px auto; border-radius: 25px;background-color: #3498db; "id="but3"  onclick="tofoot()"> Show Result</button>
+    </div>
+  <div class="tocenti" id="tocenti" style="display: none;">
+            <h2 style="margin: 20px; padding: 10px;">HEIGHT CONVERTER</h2>
+            <span>
+            <button  onclick="tofot()"  id="but1">To Feet & Inch</button>
+            <button  onclick="tocen()"  id="but2">To Centimeter</button>
+         </span> 
+            <span> 
+                
+                <input type="text"  style="color: aliceblue; text-align: center;" id="ft" value="">
+                <input type="text"  style="color: aliceblue; text-align: center;" id="inc" value="">
+            </span>
+               <p id="cen"> </p>
+              <h4>Result in Centimeter</h4>
+             
+               <button style="width:70%;height: 40px; margin:15px auto; border-radius: 25px;background-color: #3498db;"id="but3"  onclick="tocm()"> Show Result</button>
+           
+    
+       </div> 
+    <script src="index.js"> </script> 
+</body>
+</html> 

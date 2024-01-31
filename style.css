@@ -1,0 +1,55 @@
+body{
+    /* display: flex; */
+    box-sizing: border-box;
+    background-color: #3498db; ;
+    /* flex-direction: column; */
+    margin: 0;
+    padding: 0;
+}
+.tofoot,.tocenti{
+    width:min(70%, 400px);
+    height: min(80%,500px);
+    background-color: rgb(26, 18, 18);
+    display: grid;
+    margin:100px auto;
+    flex-direction: row;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 25px;
+    
+}
+.tofoot.tocenti, input, p{
+    width:90%;
+   height: 40px;
+    background-color:rgb(26, 18, 18);
+    margin: auto;
+    
+    border-top: 0px;
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px; 
+    margin-top: 10px;
+    padding: 0px;
+    
+}
+span{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    padding: 5px;
+   }
+span button{
+   width:90%;
+   height: 40px;
+   border-radius: 25px;
+
+   }
+   #but1{
+    background-color:rgb(26, 18, 18);
+    border:1px solid #2ecc71;
+    color: aliceblue;
+   }
+   #but2{
+    background-color:#3498db;
+    color: aliceblue;
+   }
